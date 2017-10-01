@@ -20,6 +20,7 @@ function resizeParticlesJS() {
 
 (function($) {
 
+	resizeParticlesJS();
 
 
 
