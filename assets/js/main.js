@@ -4,7 +4,24 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+function resizeParticlesJS() {
+	var banner_inner_height =  $('#banner .inner').height();
+	var header_height = $('#header').height();
+
+	banner_inner_height+=header_height+20;
+	var banner = $('#banner');
+	// particle.height(banner_height);
+	banner.height(banner_inner_height)
+	banner.css({
+		width: '100%'
+	});
+};
+
+
 (function($) {
+
+
+
 
 	// Breakpoints.
 		skel.breakpoints({
@@ -15,8 +32,12 @@
 			xsmall:	'(max-width: 480px)'
 		});
 
-	$(function() {
+	$(window).resize(function(event) {
+		resizeParticlesJS();
+	});
 
+	$(function() {
+		
 		var	$window = $(window),
 			$body = $('body');
 
@@ -26,6 +47,7 @@
 			$window.on('load', function() {
 				window.setTimeout(function() {
 					$body.removeClass('is-loading');
+					
 				}, 100);
 			});
 
