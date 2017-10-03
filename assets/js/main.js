@@ -87,3 +87,10 @@ function resizeParticlesJS() {
 	});
 
 })(jQuery);
+
+$(window).load(function() {
+	setTimeout(function() {
+		$('#loading').hide();
+	},300);
+     
+  });
