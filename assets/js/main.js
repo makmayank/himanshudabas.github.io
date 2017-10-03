@@ -64,7 +64,7 @@ function resizeParticlesJS() {
 
 		// Navigation Panel.
 			$(
-				'<div id="navPanel">' +
+				'<div id="navPanel" class="noSelect">' +
 					$('#nav').html() +
 					'<a href="#navPanel" class="close"></a>' +
 				'</div>'
@@ -91,6 +91,6 @@ function resizeParticlesJS() {
 $(window).load(function() {
 	setTimeout(function() {
 		$('#loading').hide();
-	},300);
+	},500);
      
   });
