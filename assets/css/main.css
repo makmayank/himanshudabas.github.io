@@ -3027,7 +3027,7 @@ user-select: none;
   background-size: cover;
 		background-position: bottom;
   background-attachment: fixed;
-  background-image: url(../../images/bannner.jpg);
+  background-image: url(../../images/banner.jpg);
   
   z-index: 1;
 }
