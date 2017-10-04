@@ -3295,36 +3295,41 @@
 
 @-webkit-keyframes color-change {
     0% { color: #ab47bc; }
-    25% { color: #e53935 ; }
-    50% { color: #2196f3; }
-    75% { color: #43a047; }
-    100% { color: #ffa726; }
+    20% { color: #e53935 ; }
+    40% { color: #2196f3; }
+    60% { color: #43a047; }	
+    80% { color: #ffa726; }
+    100% { color: #ab47bc; }
 }
 @-moz-keyframes color-change {
-     0% { color: #ab47bc; }
-    25% { color: #e53935 ; }
-    50% { color: #2196f3; }
-    75% { color: #43a047; }
-    100% { color: #ffa726; }
+   0% { color: #ab47bc; }
+    20% { color: #e53935 ; }
+    40% { color: #2196f3; }
+    60% { color: #43a047; }	
+    80% { color: #ffa726; }
+    100% { color: #ab47bc; }
 }
 @-ms-keyframes color-change {
-      0% { color: #ab47bc; }
-    25% { color: #e53935 ; }
-    50% { color: #2196f3; }
-    75% { color: #43a047; }
-    100% { color: #ffa726; }
+    0% { color: #ab47bc; }
+    20% { color: #e53935 ; }
+    40% { color: #2196f3; }
+    60% { color: #43a047; }	
+    80% { color: #ffa726; }
+    100% { color: #ab47bc; }
 }
 @-o-keyframes color-change {
-    0% { color: #ab47bc; }
-    25% { color: #e53935 ; }
-    50% { color: #2196f3; }
-    75% { color: #43a047; }
-    100% { color: #ffa726; }
+   0% { color: #ab47bc; }
+    20% { color: #e53935 ; }
+    40% { color: #2196f3; }
+    60% { color: #43a047; }	
+    80% { color: #ffa726; }
+    100% { color: #ab47bc; }
 }
 @keyframes color-change {
     0% { color: #ab47bc; }
-    25% { color: #e53935 ; }
-    50% { color: #2196f3; }
-    75% { color: #43a047; }
-    100% { color: #ffa726; }
+    20% { color: #e53935 ; }
+    40% { color: #2196f3; }
+    60% { color: #43a047; }	
+    80% { color: #ffa726; }
+    100% { color: #ab47bc; }
 }
